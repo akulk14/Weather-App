@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #302447;
+}
+
+/* Heading */
+h1{
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* Container */
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #faf565,#07baba);
+    color: #fff;
+}
+
+/* Search Section */
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 50px;
+    outline: 0;
+    background-color: #eeffff;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #eeffff;
+    cursor: pointer;
+}
+
+.search img{
+    width: 15px;
+}
+
+/* Error Section */
+.error{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.25rem;
+    display: none;
+}
+
+/* Main Section */
+.main{
+    display: none;
+}
+
+.temperature{
+    font-size: 4rem;
+    margin-top: -20px;
+}
+
+.location{
+    font-size: 2.5rem;
+    margin-top: -20px;
+}
+
+/* Bottom Section */
+.bottom{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.column img{
+    width: 60px;
+    margin: 10px;
+}
+
+.column div{
+    margin: 10px;
+}
+
+.humidity, .wind-speed{
+    font-size: 1.5rem;
+}
