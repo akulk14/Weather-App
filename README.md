@@ -1,6 +1,6 @@
-# Weather-App
+# Weather App
 
-**Reference**: Great Stack's YouTube Tutorial
+**Reference**: GreatStack's YouTube Tutorial
 
 **API used:** OpenWeatherMap
 
